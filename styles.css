@@ -146,8 +146,24 @@ top: 270;
   margin-bottom: 20px;
   font-size: 20px;
 }
-@media (max-width: 800px) {
-  #welcome-section {
-    width: 100%;
+@media only screen and (max-width: 1200px) {
+ *, body {
+  width: 100%;
   }
+}
+@media only screen and (max-width: 1023px) {
+ *, body {
+  width: 100%;
+ }
+}
+@media only screen and (max-width: 767px) {
+ *, body {
+  width: 100%;
+ }
+}
+@media only screen and (max-width: 480px) {
+ *, body {
+  width: 100%;
+ }
+}
 }
